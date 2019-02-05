@@ -50,7 +50,7 @@ public class StudentServiceUnitTest {
 	//test if object is being fetched
 	@Test
 	public void testObjectFetch() {
-		Student student=this.studentService.getStudent(5);
+		Student student=this.studentService.getStudent(1);
 		assertNotNull(student);
 	}
 	
